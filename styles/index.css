@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+* {
+  font-family: Syne, Arial, Calibri, system-ui;
+  letter-spacing: 1.2px;
+}
+
+nav {
+  background-color: #080919;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+a.nav-link {
+  color: #FDFCF8;
+  transition: color 700ms;
+}
+
+a.nav-link:hover {
+  color: rgba(201, 201, 201, 0.872);
+}
+
+a.navbar-brand {
+  font-weight: 700;
+  color: #FF3639;
+  transition: color 700ms;
+}
+
+a.navbar-brand:hover {
+  color: #ff3639cc;
+
+}
